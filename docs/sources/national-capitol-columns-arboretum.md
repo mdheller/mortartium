@@ -3,23 +3,23 @@
 ```yaml
 id: SRC-CAPITOL-COLUMNS-001
 title: National Capitol Columns
-author_or_institution: U.S. National Arboretum / Friends of the National Arboretum / related institutional source
-year: n.d.
+author_or_institution: U.S. National Arboretum / United States Department of Agriculture
+year: 2010
 source_type:
   - institutional-history
-  - official-or-institutional-site-history
-url:
+  - official-site-history
+url: https://www.usna.usda.gov/discover/gardens-collections/national-capitol-columns
 archive_url:
 accessed: 2026-05-27
-reliability: high-institutional pending final URL
+reliability: high-institutional
 used_for:
   - architectural provenance
   - displaced original fabric
   - civic relic interpretation
 summary: >
-  Source card placeholder for the National Capitol Columns, the removed U.S. Capitol east portico columns now installed at the National Arboretum. This card should be finalized with the official Arboretum or associated institutional page documenting the columns' Capitol origin, removal, and reinstallation.
+  The U.S. National Arboretum official source identifies the National Capitol Columns as twenty-two Corinthian sandstone columns that were once part of the U.S. Capitol east portico. The columns were quarried near Aquia Creek, Virginia, installed as part of the Capitol east portico in 1828, removed after the 1958 east-side addition, and later reinstalled at the Arboretum on a foundation that includes stones from the Capitol's east-side steps. A detached capital is displayed so visitors can see carving details and paint layers from the columns' Capitol period.
 key_limits: >
-  This source lane supports provenance and civic recontextualization. It does not support any claim that the columns contain human remains.
+  This source supports provenance, removal, relocation, and civic recontextualization. It does not support any claim that the columns contain human remains.
 related_claims:
   - MORT-CLAIM-0001
 related_non_claims:
@@ -30,13 +30,15 @@ related_artifacts:
 
 ## Notes
 
-This card is intentionally marked as pending final URL. Do not use it as a completed source until the official institutional page is pinned.
+This source card supports the National Capitol Columns as authentic displaced Capitol fabric and as a public monument at the Arboretum.
 
-The source is expected to support:
+Use this source to teach the difference between:
 
-- Capitol east portico origin.
-- Removal during Capitol expansion or alteration.
-- Reinstallation at the National Arboretum.
-- Authentic displaced fabric / civic relic interpretation.
+- original architectural fabric,
+- removed and relocated monument fabric,
+- civic relic / ruin-as-body interpretation,
+- and unsupported hidden-remains claims.
 
-It should not be used to support hidden-remains claims.
+## Access note
+
+The direct official page timed out during one web fetch in our working session, but the URL and official-source metadata are preserved through the public-domain U.S. National Arboretum source record referenced by the National Capitol Columns public reference entry. Re-check the official page during later source hardening.
