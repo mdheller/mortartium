@@ -17,20 +17,21 @@ reliability: hypothesis-generating
 used_for:
   - hypothesis generation
   - search targeting
-  - archetype expansion
+  - motif expansion
   - brick / blood / color investigation
 summary: >
-  Michael Heller reports a remembered esoteric source, from an unattributed author, concerning "the horror of the bricks" and a possible claim or symbolic memory that blood, killing, sacrifice, or body-substance was associated with red bricks or brick coloration. The source identity is currently anonymous / withheld until identified. Mortartium records this as a live research prompt, not as a settled public factual claim.
+  Michael Heller reports a remembered esoteric source, from an unattributed author, concerning "the horror of the bricks" and a possible claim or symbolic memory that blood, killing, sacrifice, or body-substance was associated with red bricks or brick coloration. The source identity is currently anonymous / withheld until identified. Mortartium records this as a live motif prompt, not as an artifact card or settled public factual claim.
 key_limits: >
   The remembered source is not sufficient by itself to establish that human blood or human remains were materially used in brick production. It is sufficient to justify investigation into brick color chemistry, blood/sacrifice legends, foundation sacrifice traditions, kiln sacrifice narratives, brickmaking rituals, and red/yellow brick material differences.
+related_motifs:
+  - MORT-MOTIF-0002
 related_claims:
   - MORT-CLAIM-0001
 related_non_claims:
   - MORT-NONCLAIM-0002
   - MORT-NONCLAIM-0003
   - MORT-NONCLAIM-0007
-related_artifacts:
-  - artifacts/masonry/brick-blood-color-hypothesis.md
+related_artifacts: []
 ```
 
 ## Recording rule
@@ -38,6 +39,10 @@ related_artifacts:
 This source is anonymous until Michael Heller identifies it.
 
 Mortartium treats it as a legitimate research prompt. The point is to investigate the hypothesis, not to suppress it because the citation is not yet recovered.
+
+This source prompt currently supports **MORT-MOTIF-0002 — Horror of the bricks / blood brick** in `docs/motifs/motif-register.md`.
+
+It should not be used directly as an artifact source until the underlying text, source family, or object class is identified.
 
 ## Current hypothesis generated
 
