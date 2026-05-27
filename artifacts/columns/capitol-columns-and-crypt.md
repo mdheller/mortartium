@@ -44,20 +44,22 @@ institutional_authority:
   - Capitol builders and restorers
   - National Arboretum / public heritage authority
 evidence_available:
-  - architectural histories
-  - Capitol / Arboretum provenance records
+  - Architect of the Capitol source for Crypt architecture and unrealized Washington tomb plan
+  - National Capitol Columns institutional source lane pending final official URL
   - restoration and relocation histories
-claim_grade: established for provenance and crypt/tomb design history; plausible symbolic reading; no remains-in-columns claim
+claim_grade: established for Capitol Crypt architecture and unrealized tomb context; plausible symbolic reading; no remains-in-columns claim
 open_tests:
+  - finalize institutional source for National Capitol Columns provenance and relocation
   - identify primary Capitol records for east portico column removal and Arboretum reinstallation
-  - identify primary records for the Capitol Crypt and Washington tomb plan
   - distinguish original fabric, replacement fabric, and relocated fabric
-sources: []
+sources:
+  - docs/sources/capitol-crypt-aoc.md
+  - docs/sources/national-capitol-columns-arboretum.md
 ```
 
 ## Reading
 
-The Capitol columns and crypt form a modern civic version of the Column-Tomb archetype. The displaced columns are authentic architectural fabric removed from their original structural setting and reinstalled as public ruin. The crypt beneath the Rotunda supplies the death-axis layer: a support chamber connected to the unrealized plan for Washington's tomb.
+The Capitol columns and crypt form a modern civic version of the Column-Tomb archetype. The displaced columns are read here as authentic architectural fabric removed from their original structural setting and reinstalled as public ruin; that provenance lane remains pending a finalized institutional source card. The Capitol Crypt supplies the death-axis layer: the Architect of the Capitol describes it as a vaulted space beneath the Rotunda, long called the Crypt because of its resemblance to church crypts, and records that a space directly beneath it had been intended for George and Martha Washington's remains.[^aoc-crypt]
 
 The object therefore operates across several layers at once:
 
@@ -66,8 +68,20 @@ The object therefore operates across several layers at once:
 - **Restoration:** removal, replacement, relocation, and public reinstallation.
 - **Symbolic:** national body, civic relic, unrealized tomb, vertical support, and state memory.
 
+## Teaching note
+
+This artifact is useful because it separates three ideas that are often collapsed:
+
+1. **Authentic architectural fabric** — original or historically significant building material.
+2. **Crypt or tomb intention** — an architectural program related to burial or memorialization.
+3. **Actual remains presence** — a material claim requiring direct evidence.
+
+For the Capitol Crypt, the Architect of the Capitol explicitly states that the Washington tomb area was built but Washington's will specified burial at Mount Vernon, his descendants honored that wish, and no one has been buried in the Capitol.[^aoc-crypt]
+
 ## Claim boundary
 
 Mortartium does not claim that the Capitol columns contain human remains.
 
-Mortartium may claim that the Capitol columns are authentic displaced architectural fabric and that the Capitol Crypt participates in civic death-axis symbolism because of its historical connection to the unrealized Washington tomb program.
+Mortartium may claim that the Capitol Crypt participates in civic death-axis symbolism because of its historical connection to the unrealized Washington tomb program. Mortartium may treat the National Capitol Columns as displaced authentic fabric only after the institutional source card is finalized.
+
+[^aoc-crypt]: Architect of the Capitol, "Capitol Crypt," accessed 2026-05-27. Internal source card: `docs/sources/capitol-crypt-aoc.md`. The AOC page states that the Crypt is beneath the Rotunda, contains forty Aquia Creek sandstone Doric columns, and that the planned Washington burial did not occur; no one has been buried in the Capitol.
