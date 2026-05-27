@@ -16,6 +16,33 @@ The project should make layered artifacts legible without collapsing them into o
 4. **No broad extraordinary claims** — claims about human remains, organs, relic dust, blood, bone ash, or other charged substances must be object-specific.
 5. **Restoration discipline** — distinguish original fabric, later repair, contamination, environmental decay, and interpretive overlay.
 6. **Public defensibility** — the repo should be readable by historians, conservators, artists, material scientists, esoteric scholars, and general readers.
+7. **Motif before artifact** — loose ideas, remembered phrases, symbolic suspicions, and research prompts belong in the motif register before they become artifact cards.
+
+## Repository layers
+
+Mortartium uses separate mediation layers so that ideas are not prematurely promoted into evidence objects.
+
+| Layer | Location | Purpose |
+|---|---|---|
+| Theory | `docs/theory/` | Core interpretive grammar: destructive transformation, death-bind, remains, inscription, illumination, restoration. |
+| Motifs | `docs/motifs/` | Research seeds, remembered sources, symbolic suspicions, recurring images, possible patterns. |
+| Archetypes | `docs/archetypes/` | Reusable cross-layer interpretive patterns. |
+| Sources | `docs/sources/` | Source cards, provenance, citation standards, evidence limits. |
+| Evidence matrix | `docs/evidence-matrix.md` | Operational mapping across material, process, symbolic, institutional, and evidentiary layers. |
+| Artifacts | `artifacts/` | Concrete objects, sites, object classes, or material processes with teachable evidence. |
+| Claims / non-claims | `docs/claim-ledger.md`, `docs/non-claims.md` | What the project does and does not assert. |
+
+## Promotion rule
+
+A motif becomes an artifact card only when it has at least one of the following:
+
+1. A defined object.
+2. A defined site.
+3. A defined object class.
+4. A defined source family.
+5. A defined material process with teachable evidence.
+
+If none of those exist, the idea remains in `docs/motifs/motif-register.md`.
 
 ## Phase 0 — Repository bootstrap
 
@@ -26,7 +53,10 @@ Deliverables:
 - `README.md`
 - `docs/work-plan.md`
 - `docs/claim-ledger.md`
+- `docs/non-claims.md`
 - `docs/evidence-matrix.md`
+- `docs/citation-standard.md`
+- `docs/motifs/motif-register.md`
 - `docs/glossary.md`
 - `docs/archetypes/README.md`
 - `schemas/artifact-card.schema.json`
@@ -37,6 +67,7 @@ Acceptance criteria:
 - The archetype model is explicit.
 - There is a reusable artifact-card format.
 - The repo does not present speculative claims as established fact.
+- Loose motifs are captured without being misclassified as artifact evidence.
 
 ## Phase 1 — Archetype taxonomy
 
@@ -54,6 +85,7 @@ Initial archetypes:
 8. Threshold / Initiation
 9. Ruin-as-Body
 10. Sounding Remains
+11. Column-Tomb
 
 Deliverables:
 
@@ -66,9 +98,17 @@ Acceptance criteria:
 - Archetypes are allowed to overlap.
 - Each archetype includes at least one established material example and one symbolic interpretive lane.
 
-## Phase 2 — Source intake
+## Phase 2 — Motif intake and source intake
 
-Goal: build the first controlled source base.
+Goal: build the first controlled idea/source base.
+
+Motif lanes:
+
+- Body-sized column containment.
+- Horror of the bricks / blood brick.
+- Organ-color-glass correspondence.
+- Mortar as death-bind.
+- Weeping wall / structure confesses.
 
 Initial source lanes:
 
@@ -80,12 +120,14 @@ Initial source lanes:
 
 Deliverables:
 
+- `docs/motifs/motif-register.md`
 - `docs/sources/source-register.md`
 - Source notes grouped by lane under `docs/sources/`
 - Citation/provenance notes for every source
 
 Acceptance criteria:
 
+- Motifs are not treated as claims.
 - Each source is tagged by lane, artifact relevance, and evidence type.
 - Sources are not used beyond what they actually support.
 - Sources that are symbolic or speculative are marked as such.
@@ -120,6 +162,7 @@ Acceptance criteria:
 - Matrix separates material facts from symbolic interpretations.
 - Every artifact has a claim grade.
 - Hard claims are converted into open tests rather than asserted.
+- Artifact cards are only created for concrete objects, sites, object classes, or material processes.
 
 ## Phase 4 — First proof campaign
 
@@ -161,13 +204,13 @@ Candidate questions:
 Deliverables:
 
 - `docs/hard-claims.md`
-- One card per hard claim
+- One hard-claim card per sufficiently defined hard claim
 - Required evidence checklist per claim
 
 Acceptance criteria:
 
 - No hard claim is asserted unless evidence satisfies its checklist.
-- Unsupported claims are preserved only as open tests.
+- Unsupported claims are preserved only as open tests or motif entries.
 - Rejected claims are documented rather than silently dropped.
 
 ## Phase 6 — Public synthesis
@@ -190,13 +233,8 @@ Acceptance criteria:
 
 ## Immediate next backlog
 
-1. Add claim ledger skeleton.
-2. Add evidence matrix skeleton.
-3. Add artifact-card schema.
-4. Add archetype overview.
-5. Add first source register seeded from known source lanes.
-6. Add first artifact card: lime mortar joint.
-7. Add first artifact card: cathedral rose window.
-8. Add first artifact card: parchment manuscript.
-9. Add first artifact card: relic altar.
-10. Add hard-claims skeleton.
+1. Add `docs/glossary.md`.
+2. Update anonymous-source cards to point to the motif register where appropriate.
+3. Add first sourced masonry artifact card: lime mortar joint.
+4. Add first sourced material-process source card: lime mortar / repointing.
+5. Add first public teaching dossier skeleton: death-bind.
