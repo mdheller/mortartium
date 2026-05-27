@@ -53,23 +53,23 @@ Until then, it lives here.
 
 **Boundary:** The motif does not claim that all columns contain remains or that column dimensions generally map to a body.
 
-### MORT-MOTIF-0002 — Horror of the bricks / blood brick
+### MORT-MOTIF-0002 — Lovecraft brick horror / blood brick
 
-**Status:** Active seed.
+**Status:** Active seed; source family identified.
 
-**Origin:** Anonymous remembered esoteric source or author concerning “the horror of the bricks,” with possible association among red brick, blood, sacrifice, killing, or body-substance.
+**Origin:** H. P. Lovecraft, especially the brick-building horror atmosphere in “The Horror at Red Hook.” Exact motif wording is paraphrastic: the located source contains old brick buildings, brick-lined streets, brick slums, and the “horror” of houses/blocks/cities rather than the exact phrase “horror of the bricks.”
 
-**Core intuition:** Brick may preserve a layered horror motif: fired earth, red color, blood-earth symbolism, forced labor, kiln violence, sacrifice, foundation killing, or body-substitute construction.
+**Core intuition:** Brick may preserve a layered horror motif: urban masonry as dread carrier, fired earth, red color, blood-earth symbolism, forced labor, kiln violence, sacrifice, foundation killing, body-substitute construction, or literary architecture as social/body horror.
 
-**Layers touched:** Material, furnace/process, labor history, symbolic, ritual, literary/esoteric reception, hard-claim material testing.
+**Layers touched:** Literary reception, architectural horror, material, furnace/process, labor history, symbolic, ritual, hard-claim material testing.
 
 **Candidate archetypes:** Royal Furnace, Death-Bind, Weeping Wall, Ruin-as-Body.
 
-**Search targets:** brick color chemistry; red brick iron oxide firing; yellow brick lime clay firing; blood bricks; brick sacrifice; foundation sacrifice; kiln sacrifice; forced labor brickmaking; slavery brickmaking; “horror of the bricks”; esoteric brick symbolism.
+**Search targets:** Lovecraft “The Horror at Red Hook”; old brick buildings; brick-lined streets; old brick slums; houses and blocks and cities; red brick iron oxide firing; yellow brick lime clay firing; blood bricks; brick sacrifice; foundation sacrifice; kiln sacrifice; forced labor brickmaking; slavery brickmaking; esoteric brick symbolism.
 
-**Promotion rule:** Promote into artifact card only when tied to a material class with sources, a source family, a specific site, or a documented tradition.
+**Promotion rule:** Promote into literary/source analysis once the exact Lovecraft passages are cited. Promote into artifact card only when tied to a material class with sources, a source family, a specific site, or a documented tradition.
 
-**Boundary:** The motif does not claim that human blood or human remains made red bricks red.
+**Boundary:** The motif does not claim that human blood or human remains made red bricks red. Lovecraft supports a literary/reception layer, not a material recipe.
 
 ### MORT-MOTIF-0003 — Organ-color-glass correspondence
 
