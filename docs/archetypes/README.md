@@ -18,6 +18,7 @@ Artifacts may belong to multiple archetypes. Layering is expected.
 | Threshold / Initiation | What artifact organizes passage through death, secrecy, or rebirth? | Gate, arch, veil, crypt, lodge room, labyrinth | Assuming institutional mystery-school continuity without evidence |
 | Ruin-as-Body | How does fragment, damage, or repair become witness? | Ruin, spolia, restoration layer, inscription, patched wall | Treating restoration as neutral or original fabric |
 | Sounding Remains | How does transformed matter become voice? | Skin drum, gut string, bone flute, horn, bell, wood | Treating functional material history as ritual proof by default |
+| [Column-Tomb](column-tomb.md) | How does a vertical architectural form translate death into public order? | Column, pillar, cippus, altar, sarcophagus, crypt support, ash urn | Inferring remains, proportional body-sizing, or esoteric coding without object-specific evidence |
 
 ## Reading protocol
 
@@ -43,3 +44,5 @@ Example: a rose window can be established as a glass/light artifact and plausibl
 Example: a relic altar may be established as remains-centered sacred architecture. That does not establish that relic matter was mixed into its mortar or plaster.
 
 Example: a lime mortar joint may materially enact calcination, slaking, binding, carbonation, and repair. That does not prove intentional Masonic doctrine in the joint.
+
+Example: a civic column may be authentic displaced architectural fabric and plausibly read as a state-memory object. That does not establish that the column contains human remains.
