@@ -1,0 +1,199 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mdheller/mortartium/schemas/artifact-card.schema.json",
+  "title": "Mortartium Artifact Card",
+  "description": "Schema for layered artifact cards in Mortartium. The schema preserves separation between material evidence, symbolic interpretation, institutional context, claim grade, and non-claim boundaries.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "object_type",
+    "archetypes",
+    "material_substrate",
+    "destructive_process",
+    "visible_artifact",
+    "symbolic_operation",
+    "evidence_available",
+    "claim_grade",
+    "sources",
+    "non_claim_boundaries",
+    "open_tests"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^MORT-ARTIFACT-[0-9]{4}$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "site_or_tradition": {
+      "type": "string"
+    },
+    "object_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "archetypes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": [
+          "Death-Bind",
+          "Weeping Wall",
+          "Light-Body",
+          "Relic-Core",
+          "Inscribed Skin",
+          "Bone-to-Color",
+          "Royal Furnace",
+          "Threshold / Initiation",
+          "Ruin-as-Body",
+          "Sounding Remains",
+          "Column-Tomb"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "material_substrate": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "destructive_process": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "binding_or_fixation_process": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "visible_artifact": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "hidden_layer": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "symbolic_operation": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "institutional_authority": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_available": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "claim_grade": {
+      "type": "string",
+      "enum": [
+        "established",
+        "strongly-supported",
+        "plausible",
+        "speculative",
+        "open-test",
+        "rejected",
+        "mixed"
+      ]
+    },
+    "claim_grade_notes": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "path", "supports"],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "supports": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "material_substrate",
+                "destructive_process",
+                "binding_or_fixation_process",
+                "visible_artifact",
+                "hidden_layer",
+                "symbolic_operation",
+                "institutional_authority",
+                "evidence_available",
+                "claim_grade",
+                "non_claim_boundary",
+                "open_test"
+              ]
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "non_claim_boundaries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "boundary"],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "boundary": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "open_tests": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "teaching_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["stub", "active", "source-backed", "review-needed", "superseded"],
+      "default": "stub"
+    }
+  }
+}
